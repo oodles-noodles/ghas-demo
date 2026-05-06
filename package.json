@@ -1,0 +1,27 @@
+{
+  "name": "ghas-demo",
+  "version": "1.0.0",
+  "description": "GitHub Advanced Security demo application — intentionally vulnerable",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "sqlite3": "5.0.2",
+    "express-session": "1.17.1",
+    "lodash": "4.17.20",
+    "jsonwebtoken": "8.5.1",
+    "axios": "0.21.1",
+    "minimist": "1.2.5",
+    "node-fetch": "2.6.1",
+    "qs": "6.5.2",
+    "semver": "7.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7",
+    "mocha": "9.1.3",
+    "eslint": "7.32.0"
+  }
+}

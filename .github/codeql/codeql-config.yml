@@ -1,0 +1,17 @@
+name: codeql-config
+# Custom CodeQL configuration for GHAS demo
+
+# Use the security-extended suite as the baseline
+queries:
+  - uses: security-extended
+
+# Paths to scan (include all source code)
+paths:
+  - src
+  - python
+
+# Paths to exclude from scanning
+paths-ignore:
+  - node_modules
+  - '**/*.test.js'
+  - '**/*_test.py'
