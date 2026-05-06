@@ -9,5 +9,5 @@ cryptography==3.4.6
 Pillow==8.3.1
 PyYAML==5.4.1
 urllib3==1.26.5
-certifi==2021.5.30
+certifi==2026.4.22
 setuptools==57.0.0
