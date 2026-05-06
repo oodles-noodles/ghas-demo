@@ -15,7 +15,7 @@
     "jsonwebtoken": "8.5.1",
     "axios": "0.21.1",
     "minimist": "1.2.5",
-    "node-fetch": "2.6.1",
+    "node-fetch": "3.3.2",
     "qs": "6.5.2",
     "semver": "7.3.5"
   },
