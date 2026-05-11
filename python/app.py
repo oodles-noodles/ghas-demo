@@ -100,8 +100,7 @@ def unsafe_redirect():
 def run_report():
     report_name = request.args.get('name', '')
     result = subprocess.run(
-        f'python generate_report.py {report_name}',
-        shell=True,
+        ['python', 'generate_report.py', report_name],
         capture_output=True,
         text=True
     )
